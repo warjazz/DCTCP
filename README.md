@@ -23,15 +23,22 @@ reboot
 ### 3. Examine the installation
 
  - After reboot, check if DCTCP has been correctly installed:
-  ```sysctl -a | grep tcp_dctcp```
+ 
+ ```
+ sysctl -a | grep tcp_dctcp
+ ```
 
 ### 4. Install mininet and other tools
 
  - If a package cannot be installed, find out how to install it by source code!
-  ```sudo apt-get install mininet tcpdump bwm-ng openssh-server cgroup-bin python-termcolor```
+  ```
+  sudo apt-get install mininet tcpdump bwm-ng openssh-server cgroup-bin python-termcolor
+  ```
  
  - Reconfigure openvswitch (only if you haven't done it when installing mininet)
-  ```sudo dpkg-reconfigure openvswitch-datapath-dkms```
+  ```
+  sudo dpkg-reconfigure openvswitch-datapath-dkms
+  ```
 
 ### 5. Prepare for the mininet
 
