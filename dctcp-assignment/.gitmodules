@@ -1,0 +1,6 @@
+[submodule "util"]
+	path = util
+	url = git@github.com:mininet/mininet-util.git
+[submodule "tracing"]
+	path = tracing
+	url = git@github.com:mininet/mininet-tracing.git
