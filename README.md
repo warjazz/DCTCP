@@ -1,13 +1,13 @@
 # DCTCP Assignment
 Adapted from https://github.com/mininet/mininet-tests
 
-# Kernel and Mininet Installation
+## I. Kernel and Mininet Installation
 
-## Dependecies
+### 1. Dependecies
 
 - Ubuntu Server 12.04.0 i386 (http://old-releases.ubuntu.com/releases/12.04.0/ubuntu-12.04-alternate-i386.iso)
 
-## Instructions to install DCTCP kernel:
+### 2. Instructions to install DCTCP kernel:
 
 ```
 su -
@@ -20,12 +20,12 @@ update-grub2
 reboot
 ```
 
-## Examine the installation
+### 3. Examine the installation
 
  - After reboot, check if DCTCP has been correctly installed:
   ```sysctl -a | grep tcp_dctcp```
 
-## Install mininet and other tools
+### 4. Install mininet and other tools
 
  - If a package cannot be installed, find out how to install it by source code!
   ```sudo apt-get install mininet tcpdump bwm-ng openssh-server cgroup-bin python-termcolor```
@@ -33,7 +33,7 @@ reboot
  - Reconfigure openvswitch (only if you haven't done it when installing mininet)
   ```sudo dpkg-reconfigure openvswitch-datapath-dkms```
 
-## Prepare for the mininet
+### 5. Prepare for the mininet
 
  - Create symbolic link for openvswitch controller
   ```
@@ -48,13 +48,13 @@ reboot
   sudo service openvswitch-switch start
 ```
 
-- Check if Mininet is working fine
+ - Check if Mininet is working fine
 ```
   sudo reboot
   sudo mn --link tc,bw=100 --test iperf
 ```
 
-# Instructions to the DCTCP experiment:
+## II. Instructions to the DCTCP experiment:
 
  - To run the dctcp experiments:
 ```
