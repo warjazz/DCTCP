@@ -1,9 +1,9 @@
 #!/bin/bash
 
-bws="10 20 40 80 160 320"
+bws="100"
 #bws="640"
 t=20
-n=3
+n=5
 maxq=425
 
 if [ "$UID" != "0" ]; then
@@ -38,7 +38,7 @@ function tcp {
 	odir=tcp-n$n-bw$bw
 	sudo python dctcp.py --bw $bw --maxq $maxq --dir $odir -t $t -n $n
 	sudo python ../util/plot_rate.py --maxy $bw -f $odir/txrate.txt -o $odir/rate.png
-	sudo python ../util/plot_queue.py -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
+	sudo python ../util/plot_queue.py --maxy 150 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
 	sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 }
 
@@ -56,7 +56,7 @@ function dctcp {
     odir=dctcp-n$n-bw$bw
 	sudo python dctcp.py --bw $bw --maxq $maxq --dir $odir -t $t -n $n --dctcp
 	sudo python ../util/plot_rate.py --maxy $bw -f $odir/txrate.txt -o $odir/rate.png
-	sudo python ../util/plot_queue.py --maxy 50 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
+	sudo python ../util/plot_queue.py --maxy 150 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
 	sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 }
 
