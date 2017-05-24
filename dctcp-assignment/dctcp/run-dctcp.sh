@@ -61,9 +61,9 @@ function dctcp {
 }
 
 for bw in $bws; do
-#for expt in tcp dctcp; do  # ecn was here, but commented out.
+for expt in tcp dctcp; do  # ecn was here, but commented out.
 #for expt in tcp; do
-    expt="dctcp"
+    #expt="dctcp"
     
     dir=$expt-n$n-bw$bw
     mkdir -p $dir
