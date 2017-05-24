@@ -1,0 +1,71 @@
+Ip:
+    50123 total packets received
+    0 forwarded
+    0 incoming packets discarded
+    50123 incoming packets delivered
+    47223 requests sent out
+Icmp:
+    116 ICMP messages received
+    0 input ICMP message failed.
+    ICMP input histogram:
+        destination unreachable: 106
+        echo requests: 8
+        echo replies: 2
+    116 ICMP messages sent
+    0 ICMP messages failed
+    ICMP output histogram:
+        destination unreachable: 106
+        echo request: 2
+        echo replies: 8
+IcmpMsg:
+        InType0: 2
+        InType3: 106
+        InType8: 8
+        OutType0: 8
+        OutType3: 106
+        OutType8: 2
+Tcp:
+    0 active connections openings
+    51 passive connection openings
+    0 failed connection attempts
+    0 connection resets received
+    2 connections established
+    50007 segments received
+    47107 segments send out
+    105 segments retransmited
+    0 bad segments received.
+    176 resets sent
+Udp:
+    0 packets received
+    0 packets to unknown port received.
+    0 packet receive errors
+    0 packets sent
+UdpLite:
+TcpExt:
+    86 SYN cookies sent
+    53 SYN cookies received
+    128 invalid SYN cookies received
+    278 packets pruned from receive queue because of socket buffer overrun
+    26 ICMP packets dropped because they were out-of-window
+    15 packets rejects in established connections because of timestamp
+    1174 delayed acks sent
+    79 delayed acks further delayed because of locked socket
+    Quick ack mode was activated 442 times
+    77 times the listen queue of a socket overflowed
+    77 SYNs to LISTEN sockets dropped
+    24930 packets directly queued to recvmsg prequeue.
+    490456 bytes directly in process context from backlog
+    31785544 bytes directly received in process context from prequeue
+    3247 packet headers predicted
+    12739 packets header predicted and directly queued to user
+    138 acknowledgments not containing data payload received
+    64 other TCP timeouts
+    3367 times receiver scheduled too late for direct processing
+    5582 packets collapsed in receive queue due to low socket buffer
+    442 DSACKs sent for old packets
+    1 DSACKs sent for out of order packets
+    38 DSACKs received
+    TCPReqQFullDoCookies: 86
+IpExt:
+    InOctets: 73893448
+    OutOctets: 2767984
