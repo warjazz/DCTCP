@@ -1,9 +1,9 @@
 Ip:
-    106156 total packets received
+    97196 total packets received
     0 forwarded
     0 incoming packets discarded
-    106156 incoming packets delivered
-    105517 requests sent out
+    97196 incoming packets delivered
+    96543 requests sent out
 Icmp:
     23 ICMP messages received
     0 input ICMP message failed.
@@ -25,12 +25,12 @@ Tcp:
     5 passive connection openings
     0 failed connection attempts
     0 connection resets received
-    0 connections established
-    106133 segments received
-    105494 segments send out
-    0 segments retransmited
+    1 connections established
+    97173 segments received
+    96519 segments send out
+    1 segments retransmited
     0 bad segments received.
-    0 resets sent
+    1 resets sent
 Udp:
     0 packets received
     0 packets to unknown port received.
@@ -38,17 +38,21 @@ Udp:
     0 packets sent
 UdpLite:
 TcpExt:
-    7 delayed acks sent
-    6 delayed acks further delayed because of locked socket
-    Quick ack mode was activated 17 times
-    98016 packets directly queued to recvmsg prequeue.
-    477256 bytes directly in process context from backlog
-    46481472 bytes directly received in process context from prequeue
-    381 packet headers predicted
-    15512 packets header predicted and directly queued to user
-    11 acknowledgments not containing data payload received
+    1 invalid SYN cookies received
+    3 delayed acks sent
+    11 delayed acks further delayed because of locked socket
+    Quick ack mode was activated 45 times
+    88835 packets directly queued to recvmsg prequeue.
+    430056 bytes directly in process context from backlog
+    41462480 bytes directly received in process context from prequeue
+    339 packet headers predicted
+    13918 packets header predicted and directly queued to user
+    9 acknowledgments not containing data payload received
+    1 congestion windows recovered without slow start after partial ack
+    1 other TCP timeouts
     2 times receiver scheduled too late for direct processing
-    17 DSACKs sent for old packets
+    45 DSACKs sent for old packets
+    TCPBacklogDrop: 2
 IpExt:
-    InOctets: 158506624
-    OutOctets: 7605560
+    InOctets: 145108016
+    OutOctets: 6989856

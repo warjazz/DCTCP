@@ -4,7 +4,7 @@ bws="100"
 #bws="640"
 t=20
 n=5
-maxq=425
+maxq=500
 
 if [ "$UID" != "0" ]; then
     warn "Please run as root"
@@ -38,7 +38,7 @@ function tcp {
 	odir=tcp-n$n-bw$bw
 	sudo python dctcp.py --bw $bw --maxq $maxq --dir $odir -t $t -n $n
 	sudo python ../util/plot_rate.py --maxy $bw -f $odir/txrate.txt -o $odir/rate.png
-	sudo python ../util/plot_queue.py --miny 150 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
+	sudo python ../util/plot_queue.py --miny 1000 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
 	sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 }
 
@@ -75,15 +75,17 @@ for expt in tcp dctcp; do  # ecn was here, but commented out.
     # Start the experiment
     if [ "$expt" == "tcp" ]; then 
 	sudo python dctcp.py --bw $bw --maxq $maxq --dir $odir -t $t -n $n
+#	tcp
     elif [ "$expt" == "ecn" ]; then
 	sudo python dctcp.py --bw $bw --maxq $maxq --dir $odir -t $t -n $n --ecn
     elif [ "$expt" == "dctcp" ]; then
 	sudo python dctcp.py --bw $bw --maxq $maxq --dir $odir -t $t -n $n --dctcp
+#	dctcp
     fi
 
     # Run plotting scripts
 	sudo python ../util/plot_rate.py --maxy $bw -f $odir/txrate.txt -o $odir/rate.png
-	sudo python ../util/plot_queue.py --maxy 150 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
+	sudo python ../util/plot_queue.py --maxy 1500 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
 	sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 
     #clean_text_files $dir
