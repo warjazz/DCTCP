@@ -63,10 +63,13 @@ function dctcp {
 for bw in $bws; do
 #for expt in tcp dctcp; do  # ecn was here, but commented out.
 #for expt in tcp; do
-    expt="ecn"
+    expt="dctcp"
     
     dir=$expt-n$n-bw$bw
     mkdir -p $dir
+    touch $dir/qlen_s1-eth1.txt
+    touch $dir/txrate.txt
+    touch $dir/tcp_probe.txt
     odir=$expt-n$n-bw$bw
 
     # Start the experiment
