@@ -1,28 +1,28 @@
-11345
+27652
 ------------------------------------------------------------
 Client connecting to 10.0.0.1, TCP port 5001
 TCP window size: 23.5 KByte (default)
 ------------------------------------------------------------
-[  3] local 10.0.0.3 port 56216 connected with 10.0.0.1 port 5001
+[  3] local 10.0.0.3 port 56286 connected with 10.0.0.1 port 5001
 [ ID] Interval       Transfer     Bandwidth
-[  3]  0.0- 1.0 sec  11.8 MBytes  98.6 Mbits/sec
-[  3]  1.0- 2.0 sec  11.9 MBytes  99.6 Mbits/sec
-[  3]  2.0- 3.0 sec  12.6 MBytes   106 Mbits/sec
-[  3]  3.0- 4.0 sec  12.1 MBytes   102 Mbits/sec
-[  3]  4.0- 5.0 sec  11.6 MBytes  97.5 Mbits/sec
-[  3]  5.0- 6.0 sec  11.9 MBytes  99.6 Mbits/sec
-[  3]  6.0- 7.0 sec  12.0 MBytes   101 Mbits/sec
-[  3]  7.0- 8.0 sec  12.4 MBytes   104 Mbits/sec
-[  3]  8.0- 9.0 sec  11.4 MBytes  95.4 Mbits/sec
-[  3]  9.0-10.0 sec  12.4 MBytes   104 Mbits/sec
-[  3] 10.0-11.0 sec  12.5 MBytes   105 Mbits/sec
-[  3] 11.0-12.0 sec  11.8 MBytes  98.6 Mbits/sec
-[  3] 12.0-13.0 sec  12.5 MBytes   105 Mbits/sec
-[  3] 13.0-14.0 sec  11.2 MBytes  94.4 Mbits/sec
-[  3] 14.0-15.0 sec  12.1 MBytes   102 Mbits/sec
-[  3] 15.0-16.0 sec  12.2 MBytes   103 Mbits/sec
-[  3] 16.0-17.0 sec  11.9 MBytes  99.6 Mbits/sec
-[  3] 17.0-18.0 sec  12.4 MBytes   104 Mbits/sec
-[  3] 18.0-19.0 sec  12.1 MBytes   102 Mbits/sec
+[  3]  0.0- 1.0 sec  11.2 MBytes  94.4 Mbits/sec
+[  3]  1.0- 2.0 sec  11.6 MBytes  97.5 Mbits/sec
+[  3]  2.0- 3.0 sec  11.6 MBytes  97.5 Mbits/sec
+[  3]  3.0- 4.0 sec  12.0 MBytes   101 Mbits/sec
+[  3]  4.0- 5.0 sec  11.5 MBytes  96.5 Mbits/sec
+[  3]  5.0- 6.0 sec  12.2 MBytes   103 Mbits/sec
+[  3]  6.0- 7.0 sec  11.8 MBytes  98.6 Mbits/sec
+[  3]  7.0- 8.0 sec  11.5 MBytes  96.5 Mbits/sec
+[  3]  8.0- 9.0 sec  11.6 MBytes  97.5 Mbits/sec
+[  3]  9.0-10.0 sec  11.9 MBytes  99.6 Mbits/sec
+[  3] 10.0-11.0 sec  12.1 MBytes   102 Mbits/sec
+[  3] 11.0-12.0 sec  11.9 MBytes  99.6 Mbits/sec
+[  3] 12.0-13.0 sec  12.2 MBytes   103 Mbits/sec
+[  3] 13.0-14.0 sec  12.1 MBytes   102 Mbits/sec
+[  3] 14.0-15.0 sec  12.4 MBytes   104 Mbits/sec
+[  3] 15.0-16.0 sec  11.9 MBytes  99.6 Mbits/sec
+[  3] 16.0-17.0 sec  12.0 MBytes   101 Mbits/sec
+[  3] 17.0-18.0 sec  11.9 MBytes  99.6 Mbits/sec
+[  3] 18.0-19.0 sec  10.6 MBytes  89.1 Mbits/sec
 [  3] 19.0-20.0 sec  12.1 MBytes   102 Mbits/sec
-[  3]  0.0-20.0 sec   241 MBytes   101 Mbits/sec
+[  3]  0.0-20.0 sec   236 MBytes  99.1 Mbits/sec

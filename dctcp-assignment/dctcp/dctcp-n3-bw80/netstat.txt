@@ -1,24 +1,24 @@
 Ip:
-    130796 total packets received
+    130380 total packets received
     0 forwarded
     0 incoming packets discarded
-    130796 incoming packets delivered
-    123181 requests sent out
+    130380 incoming packets delivered
+    122767 requests sent out
 Icmp:
-    18 ICMP messages received
+    17 ICMP messages received
     0 input ICMP message failed.
     ICMP input histogram:
-        echo requests: 16
+        echo requests: 15
         echo replies: 2
-    18 ICMP messages sent
+    17 ICMP messages sent
     0 ICMP messages failed
     ICMP output histogram:
         echo request: 2
-        echo replies: 16
+        echo replies: 15
 IcmpMsg:
         InType0: 2
-        InType8: 16
-        OutType0: 16
+        InType8: 15
+        OutType0: 15
         OutType8: 2
 Tcp:
     0 active connections openings
@@ -26,8 +26,8 @@ Tcp:
     0 failed connection attempts
     0 connection resets received
     0 connections established
-    130778 segments received
-    123163 segments send out
+    130363 segments received
+    122750 segments send out
     0 segments retransmited
     0 bad segments received.
     0 resets sent
@@ -38,15 +38,14 @@ Udp:
     0 packets sent
 UdpLite:
 TcpExt:
-    1 delayed acks sent
-    Quick ack mode was activated 6 times
-    128497 packets directly queued to recvmsg prequeue.
-    370688 bytes directly in process context from backlog
-    164870816 bytes directly received in process context from prequeue
-    235 packet headers predicted
-    93793 packets header predicted and directly queued to user
+    Quick ack mode was activated 2 times
+    127760 packets directly queued to recvmsg prequeue.
+    557480 bytes directly in process context from backlog
+    165588400 bytes directly received in process context from prequeue
+    263 packet headers predicted
+    94898 packets header predicted and directly queued to user
     6 acknowledgments not containing data payload received
-    6 DSACKs sent for old packets
+    2 DSACKs sent for old packets
 IpExt:
-    InOctets: 196077272
-    OutOctets: 6617944
+    InOctets: 195525528
+    OutOctets: 6576320
