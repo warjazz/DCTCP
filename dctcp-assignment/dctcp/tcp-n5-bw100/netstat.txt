@@ -1,24 +1,24 @@
 Ip:
-    164898 total packets received
+    106156 total packets received
     0 forwarded
     0 incoming packets discarded
-    164898 incoming packets delivered
-    162951 requests sent out
+    106156 incoming packets delivered
+    105517 requests sent out
 Icmp:
-    22 ICMP messages received
+    23 ICMP messages received
     0 input ICMP message failed.
     ICMP input histogram:
-        echo requests: 20
+        echo requests: 21
         echo replies: 2
-    22 ICMP messages sent
+    23 ICMP messages sent
     0 ICMP messages failed
     ICMP output histogram:
         echo request: 2
-        echo replies: 20
+        echo replies: 21
 IcmpMsg:
         InType0: 2
-        InType8: 20
-        OutType0: 20
+        InType8: 21
+        OutType0: 21
         OutType8: 2
 Tcp:
     0 active connections openings
@@ -26,8 +26,8 @@ Tcp:
     0 failed connection attempts
     0 connection resets received
     0 connections established
-    164876 segments received
-    162929 segments send out
+    106133 segments received
+    105494 segments send out
     0 segments retransmited
     0 bad segments received.
     0 resets sent
@@ -38,16 +38,17 @@ Udp:
     0 packets sent
 UdpLite:
 TcpExt:
-    2 delayed acks sent
-    Quick ack mode was activated 94 times
-    154581 packets directly queued to recvmsg prequeue.
-    831904 bytes directly in process context from backlog
-    99311152 bytes directly received in process context from prequeue
-    660 packet headers predicted
-    41543 packets header predicted and directly queued to user
-    10 acknowledgments not containing data payload received
-    94 DSACKs sent for old packets
-    3 DSACKs sent for out of order packets
+    7 delayed acks sent
+    6 delayed acks further delayed because of locked socket
+    Quick ack mode was activated 17 times
+    98016 packets directly queued to recvmsg prequeue.
+    477256 bytes directly in process context from backlog
+    46481472 bytes directly received in process context from prequeue
+    381 packet headers predicted
+    15512 packets header predicted and directly queued to user
+    11 acknowledgments not containing data payload received
+    2 times receiver scheduled too late for direct processing
+    17 DSACKs sent for old packets
 IpExt:
-    InOctets: 246479960
-    OutOctets: 11100856
+    InOctets: 158506624
+    OutOctets: 7605560
