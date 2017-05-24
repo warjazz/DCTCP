@@ -1,9 +1,9 @@
 Ip:
-    97196 total packets received
+    85272 total packets received
     0 forwarded
     0 incoming packets discarded
-    97196 incoming packets delivered
-    96543 requests sent out
+    85272 incoming packets delivered
+    84532 requests sent out
 Icmp:
     23 ICMP messages received
     0 input ICMP message failed.
@@ -25,12 +25,12 @@ Tcp:
     5 passive connection openings
     0 failed connection attempts
     0 connection resets received
-    1 connections established
-    97173 segments received
-    96519 segments send out
-    1 segments retransmited
+    0 connections established
+    85249 segments received
+    84509 segments send out
+    0 segments retransmited
     0 bad segments received.
-    1 resets sent
+    0 resets sent
 Udp:
     0 packets received
     0 packets to unknown port received.
@@ -38,21 +38,17 @@ Udp:
     0 packets sent
 UdpLite:
 TcpExt:
-    1 invalid SYN cookies received
-    3 delayed acks sent
-    11 delayed acks further delayed because of locked socket
-    Quick ack mode was activated 45 times
-    88835 packets directly queued to recvmsg prequeue.
-    430056 bytes directly in process context from backlog
-    41462480 bytes directly received in process context from prequeue
-    339 packet headers predicted
-    13918 packets header predicted and directly queued to user
+    11 delayed acks sent
+    6 delayed acks further delayed because of locked socket
+    Quick ack mode was activated 33 times
+    78921 packets directly queued to recvmsg prequeue.
+    328056 bytes directly in process context from backlog
+    38560400 bytes directly received in process context from prequeue
+    323 packet headers predicted
+    14098 packets header predicted and directly queued to user
     9 acknowledgments not containing data payload received
-    1 congestion windows recovered without slow start after partial ack
-    1 other TCP timeouts
-    2 times receiver scheduled too late for direct processing
-    45 DSACKs sent for old packets
-    TCPBacklogDrop: 2
+    1 times receiver scheduled too late for direct processing
+    33 DSACKs sent for old packets
 IpExt:
-    InOctets: 145108016
-    OutOctets: 6989856
+    InOctets: 127297264
+    OutOctets: 6091032

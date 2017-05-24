@@ -38,7 +38,7 @@ function tcp {
 	odir=tcp-n$n-bw$bw
 	sudo python dctcp.py --bw $bw --maxq $maxq --dir $odir -t $t -n $n
 	sudo python ../util/plot_rate.py --maxy $bw -f $odir/txrate.txt -o $odir/rate.png
-	sudo python ../util/plot_queue.py --miny 1000 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
+	sudo python ../util/plot_queue.py --miny 500 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
 	sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 }
 
@@ -85,7 +85,7 @@ for expt in tcp dctcp; do  # ecn was here, but commented out.
 
     # Run plotting scripts
 	sudo python ../util/plot_rate.py --maxy $bw -f $odir/txrate.txt -o $odir/rate.png
-	sudo python ../util/plot_queue.py --maxy 1500 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
+	sudo python ../util/plot_queue.py --maxy 500 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
 	sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 
     #clean_text_files $dir

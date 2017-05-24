@@ -1,33 +1,33 @@
 Ip:
-    77263 total packets received
+    77002 total packets received
     0 forwarded
     0 incoming packets discarded
-    77263 incoming packets delivered
-    73294 requests sent out
+    77002 incoming packets delivered
+    73036 requests sent out
 Icmp:
-    16 ICMP messages received
+    17 ICMP messages received
     0 input ICMP message failed.
     ICMP input histogram:
-        echo requests: 14
+        echo requests: 15
         echo replies: 2
-    16 ICMP messages sent
+    17 ICMP messages sent
     0 ICMP messages failed
     ICMP output histogram:
         echo request: 2
-        echo replies: 14
+        echo replies: 15
 IcmpMsg:
         InType0: 2
-        InType8: 14
-        OutType0: 14
+        InType8: 15
+        OutType0: 15
         OutType8: 2
 Tcp:
     0 active connections openings
     5 passive connection openings
     0 failed connection attempts
     0 connection resets received
-    1 connections established
-    77247 segments received
-    73278 segments send out
+    0 connections established
+    76985 segments received
+    73019 segments send out
     0 segments retransmited
     0 bad segments received.
     0 resets sent
@@ -38,19 +38,19 @@ Udp:
     0 packets sent
 UdpLite:
 TcpExt:
-    1 packets pruned from receive queue because of socket buffer overrun
-    21 delayed acks sent
-    2 delayed acks further delayed because of locked socket
-    Quick ack mode was activated 12 times
-    73316 packets directly queued to recvmsg prequeue.
-    496664 bytes directly in process context from backlog
-    96102312 bytes directly received in process context from prequeue
-    424 packet headers predicted
-    51628 packets header predicted and directly queued to user
-    9 acknowledgments not containing data payload received
-    4 times receiver scheduled too late for direct processing
-    30 packets collapsed in receive queue due to low socket buffer
-    12 DSACKs sent for old packets
+    2 packets pruned from receive queue because of socket buffer overrun
+    37 delayed acks sent
+    3 delayed acks further delayed because of locked socket
+    Quick ack mode was activated 18 times
+    73362 packets directly queued to recvmsg prequeue.
+    347520 bytes directly in process context from backlog
+    95921672 bytes directly received in process context from prequeue
+    384 packet headers predicted
+    51585 packets header predicted and directly queued to user
+    10 acknowledgments not containing data payload received
+    6 times receiver scheduled too late for direct processing
+    72 packets collapsed in receive queue due to low socket buffer
+    18 DSACKs sent for old packets
 IpExt:
-    InOctets: 115840116
-    OutOctets: 3938492
+    InOctets: 115442048
+    OutOctets: 3928832
