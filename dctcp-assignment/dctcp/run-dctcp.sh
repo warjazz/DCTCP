@@ -3,7 +3,7 @@
 bws="100"
 #bws="640"
 tt="20"
-nn="20"
+nn="5"
 maxq=500
 
 if [ "$UID" != "0" ]; then
@@ -86,7 +86,7 @@ for expt in tcp dctcp; do  # ecn was here, but commented out.
 
     # Run plotting scripts
 	sudo python ../util/plot_rate.py --maxy $bw -f $odir/txrate.txt -o $odir/rate.png
-	sudo python ../util/plot_queue.py --maxy 500 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
+	sudo python ../util/plot_queue.py --maxy 50 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
 	sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 
     #clean_text_files $dir
