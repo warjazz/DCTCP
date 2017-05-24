@@ -1,33 +1,33 @@
 Ip:
-    73007 total packets received
+    135142 total packets received
     0 forwarded
     0 incoming packets discarded
-    73007 incoming packets delivered
-    70084 requests sent out
+    135142 incoming packets delivered
+    128545 requests sent out
 Icmp:
-    18 ICMP messages received
+    16 ICMP messages received
     0 input ICMP message failed.
     ICMP input histogram:
-        echo requests: 16
+        echo requests: 14
         echo replies: 2
-    18 ICMP messages sent
+    16 ICMP messages sent
     0 ICMP messages failed
     ICMP output histogram:
         echo request: 2
-        echo replies: 16
+        echo replies: 14
 IcmpMsg:
         InType0: 2
-        InType8: 16
-        OutType0: 16
+        InType8: 14
+        OutType0: 14
         OutType8: 2
 Tcp:
     0 active connections openings
     5 passive connection openings
     0 failed connection attempts
     0 connection resets received
-    1 connections established
-    72990 segments received
-    70066 segments send out
+    2 connections established
+    135127 segments received
+    128529 segments send out
     0 segments retransmited
     0 bad segments received.
     0 resets sent
@@ -38,21 +38,21 @@ Udp:
     0 packets sent
 UdpLite:
 TcpExt:
-    3 packets pruned from receive queue because of socket buffer overrun
+    6 packets pruned from receive queue because of socket buffer overrun
     1 packets rejects in established connections because of timestamp
-    44 delayed acks sent
-    4 delayed acks further delayed because of locked socket
-    Quick ack mode was activated 13 times
-    68654 packets directly queued to recvmsg prequeue.
-    452528 bytes directly in process context from backlog
-    81460048 bytes directly received in process context from prequeue
-    459 packet headers predicted
-    42771 packets header predicted and directly queued to user
-    10 acknowledgments not containing data payload received
-    7 times receiver scheduled too late for direct processing
-    130 packets collapsed in receive queue due to low socket buffer
-    13 DSACKs sent for old packets
-    TCPBacklogDrop: 2
+    9 delayed acks sent
+    1 delayed acks further delayed because of locked socket
+    Quick ack mode was activated 19 times
+    129961 packets directly queued to recvmsg prequeue.
+    605264 bytes directly in process context from backlog
+    169562320 bytes directly received in process context from prequeue
+    496 packet headers predicted
+    91137 packets header predicted and directly queued to user
+    7 acknowledgments not containing data payload received
+    2 times receiver scheduled too late for direct processing
+    160 packets collapsed in receive queue due to low socket buffer
+    19 DSACKs sent for old packets
+    TCPBacklogDrop: 1
 IpExt:
-    InOctets: 109396072
-    OutOctets: 3973152
+    InOctets: 202683672
+    OutOctets: 6902968
