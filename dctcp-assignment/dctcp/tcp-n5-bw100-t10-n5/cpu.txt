@@ -1,0 +1,16 @@
+Cpu(s):  3.0%us,  3.8%sy,  0.0%ni, 91.9%id,  0.2%wa,  0.0%hi,  0.0%si,  1.0%st
+Cpu(s): 14.0%us, 76.3%sy,  0.0%ni,  8.6%id,  0.0%wa,  0.0%hi,  1.1%si,  0.0%st
+Cpu(s): 16.5%us, 75.8%sy,  0.0%ni,  7.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Cpu(s): 16.3%us, 76.1%sy,  0.0%ni,  7.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Cpu(s): 14.3%us, 78.0%sy,  0.0%ni,  6.6%id,  0.0%wa,  0.0%hi,  1.1%si,  0.0%st
+Cpu(s): 11.6%us, 80.0%sy,  0.0%ni,  7.4%id,  0.0%wa,  0.0%hi,  1.1%si,  0.0%st
+Cpu(s): 13.0%us, 77.2%sy,  0.0%ni,  8.7%id,  0.0%wa,  0.0%hi,  0.0%si,  1.1%st
+Cpu(s):  9.6%us, 83.0%sy,  0.0%ni,  6.4%id,  0.0%wa,  0.0%hi,  1.1%si,  0.0%st
+Cpu(s): 13.0%us, 76.1%sy,  0.0%ni,  8.7%id,  0.0%wa,  1.1%hi,  1.1%si,  0.0%st
+Cpu(s): 12.1%us, 79.1%sy,  0.0%ni,  8.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Cpu(s): 11.3%us, 51.5%sy,  0.0%ni, 36.1%id,  0.0%wa,  0.0%hi,  0.0%si,  1.0%st
+Cpu(s):  1.0%us,  3.1%sy,  0.0%ni, 95.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Cpu(s):  4.0%us,  6.1%sy,  0.0%ni, 89.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Cpu(s):  3.0%us,  7.0%sy,  0.0%ni, 90.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Cpu(s):  3.0%us, 11.1%sy,  0.0%ni, 85.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Cpu(s):  4.0%us, 11.1%sy,  0.0%ni, 84.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st

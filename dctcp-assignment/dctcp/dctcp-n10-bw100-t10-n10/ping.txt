@@ -1,0 +1,22 @@
+PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
+64 bytes from 10.0.0.1: icmp_req=2 ttl=64 time=5.65 ms
+64 bytes from 10.0.0.1: icmp_req=9 ttl=64 time=3.26 ms
+64 bytes from 10.0.0.1: icmp_req=10 ttl=64 time=2.29 ms
+64 bytes from 10.0.0.1: icmp_req=13 ttl=64 time=0.730 ms
+64 bytes from 10.0.0.1: icmp_req=14 ttl=64 time=0.402 ms
+64 bytes from 10.0.0.1: icmp_req=15 ttl=64 time=0.298 ms
+64 bytes from 10.0.0.1: icmp_req=16 ttl=64 time=0.275 ms
+64 bytes from 10.0.0.1: icmp_req=17 ttl=64 time=0.286 ms
+64 bytes from 10.0.0.1: icmp_req=18 ttl=64 time=0.290 ms
+64 bytes from 10.0.0.1: icmp_req=19 ttl=64 time=0.291 ms
+64 bytes from 10.0.0.1: icmp_req=20 ttl=64 time=0.295 ms
+64 bytes from 10.0.0.1: icmp_req=21 ttl=64 time=0.276 ms
+64 bytes from 10.0.0.1: icmp_req=22 ttl=64 time=0.280 ms
+64 bytes from 10.0.0.1: icmp_req=23 ttl=64 time=0.303 ms
+64 bytes from 10.0.0.1: icmp_req=24 ttl=64 time=0.318 ms
+64 bytes from 10.0.0.1: icmp_req=25 ttl=64 time=0.287 ms
+64 bytes from 10.0.0.1: icmp_req=26 ttl=64 time=0.375 ms
+64 bytes from 10.0.0.1: icmp_req=27 ttl=64 time=0.293 ms
+64 bytes from 10.0.0.1: icmp_req=28 ttl=64 time=0.286 ms
+64 bytes from 10.0.0.1: icmp_req=29 ttl=64 time=0.289 ms
+64 bytes from 10.0.0.1: icmp_req=30 ttl=64 time=0.326 ms

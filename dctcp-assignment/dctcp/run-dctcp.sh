@@ -2,8 +2,8 @@
 
 bws="100"
 #bws="640"
-t=20
-n=5
+tt="10 20"
+nn="5 20 10"
 maxq=500
 
 if [ "$UID" != "0" ]; then
@@ -59,18 +59,19 @@ function dctcp {
 	sudo python ../util/plot_queue.py --miny 150 -f $odir/qlen_s1-eth1.txt -o $odir/qlen.png
 	sudo python ../util/plot_tcpprobe.py -f $odir/tcp_probe.txt -o $odir/cwnd.png
 }
-
+for t in $tt; do
+for n in $nn; do
 for bw in $bws; do
 for expt in tcp dctcp; do  # ecn was here, but commented out.
 #for expt in tcp; do
     #expt="dctcp"
     
-    dir=$expt-n$n-bw$bw
+    dir=$expt-n$n-bw$bw-t$t-n$n
     mkdir -p $dir
     touch $dir/qlen_s1-eth1.txt
     touch $dir/txrate.txt
     touch $dir/tcp_probe.txt
-    odir=$expt-n$n-bw$bw
+    odir=$expt-n$n-bw$bw-t$t-n$n
 
     # Start the experiment
     if [ "$expt" == "tcp" ]; then 
@@ -90,9 +91,9 @@ for expt in tcp dctcp; do  # ecn was here, but commented out.
 
     #clean_text_files $dir
     wait
-
 done
-
+done
+done
 done
 
 finish
